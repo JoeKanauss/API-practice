@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8"/>
+            <met name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Pokemon Api App</title>
+            <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+            <link href="pokemonStyles.css" rel="stylesheet" />
+        </head>
+        <body>
+            <div id="root">
+                <h1>POKEMON</h1>
+                <div id="tabs">
+                    <button class="tab-link" onClick="showTab(0);">Order</button>
+                    <button class="tab-link"  onClick="showTab(1);">Type</button>
+                </div>
+            </div>
+            <div class="tab-content" id="order"></div>
+            <div class="tab-content" id="type"></div>
+            <script src="pokemonScripts.js"></script>
+            
+            <div id="type-pokemon-display" class="modal">
+                    <span class="close">&times;</span>
+                    <!-- <div class="tooltip">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/12.png"/>
+                        <span class="text"><br>Pokemon Name(ID)</span>
+                    </div> -->
+            </div>
+
+            <div id="footer">
+                This API practice was written by Joe Kanauss, using the <a href="https://pokeapi.co/">PokeApi</a> | Pokemon and all of its properties are owned by Nintendo.
+            </div>
+        </body>
+    </html>

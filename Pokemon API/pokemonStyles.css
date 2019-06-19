@@ -1,0 +1,73 @@
+body{
+    font-family: arial;
+}
+#tabs{
+    background:#ffe699;
+    border: none;
+    font-size: 1.5em;
+    margin-right: 0;
+    padding: 0;
+}
+#tabs button{
+    background-color: inherit;
+    border: none;
+    font-size: 1.15em;
+    margin: 0;
+    padding: 1% 2%;
+    outline: none;
+    cursor: pointer;
+}
+#tabs button:hover{
+    background-color: #ffffcc;
+}
+#tabs button.active{
+    background-color: #ffffcc;
+}
+.tab-content{
+    display: none;
+    width: 25%;
+    text-align: justify;
+}
+.tab-content li{
+    text-transform: capitalize;
+    list-style-type: none;
+    font-size: 1.25em;
+    padding-top: 5px;
+}
+.select{
+    cursor: pointer;
+}
+
+.text{
+    display: none;
+    background-color: white;
+}
+.tooltip:hover .text{
+    display: inline;
+}
+
+.modal{
+    width: 70%;
+    border: 1px solid black;
+    float: right;
+    display: none;
+    text-align: center;
+}
+.modal .close{
+    font-size: 2em;
+    float: right;
+    cursor: pointer;
+}
+
+img title{
+    font-size: 2em;
+}
+
+#footer{
+    clear: both;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid black;
+}
